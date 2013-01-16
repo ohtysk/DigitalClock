@@ -1,17 +1,16 @@
 DigitalClock
 ============
 
-Simple Digital Clock.
+###Simple Digital Clock Desktop Application.
 
 How to start(need qt4 development environment)
+----------------------------------------------
+    $ cd DigitalClock
+    $ qmake -project
+    $ qmake
+    $ make
+    $ ./DigitalClock &
 
-$ cd DigitalClock
-$ qmake -project
-$ qmake
-$ make
-$ ./DigitalClock &
-
-How to finish
-
-$ kill `ps x | grep "[Dd]igitalClock" | cut -d ' ' -f 2`
-
+Howb to finish
+--------------
+    $ kill `ps x | grep "[Dd]igitalClock" | cut -d ' ' -f 2`
