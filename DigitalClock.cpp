@@ -39,3 +39,5 @@ void DigitalClock::updateClock()
           );
   label->setText(str);
 }
+
+//Copyright (C) 2013  OHTA Yuusuke

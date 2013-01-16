@@ -13,3 +13,5 @@ int main(int argc, char** argv)
   clock->show();
   return app.exec();
 }
+
+//Copyright (C) 2013  OHTA Yuusuke

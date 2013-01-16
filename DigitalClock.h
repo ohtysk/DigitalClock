@@ -1,13 +1,8 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef DIGIGAL_CLOCK_H_
+#define DIGIGAL_CLOCK_H_
 
 #include <QtGui>
 #include <QDialog>
-
-class QLabel;
-class QTimer;
-class QPalette;
-class QHBoxLayout;
 
 class DigitalClock : public QDialog
 {
@@ -23,4 +18,6 @@ private:
   QHBoxLayout *layout;
 };
 
-#endif
+#endif //DIGIGAL_CLOCK_H_
+
+//Copyright (C) 2013  OHTA Yuusuke
